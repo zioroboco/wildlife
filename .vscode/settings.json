@@ -1,0 +1,6 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tslint.configFile": ".vscode/tslint.only-warn.json",
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true
+}
