@@ -30,7 +30,7 @@ jobs:
           command: yarn build
       - run:
           name: Deploy
-          command: yarn cdk deploy Stack
+          command: yarn cdk deploy WildlifeStack
 
 workflows:
   version: 2

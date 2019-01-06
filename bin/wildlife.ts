@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import cdk = require("@aws-cdk/cdk")
-import { Stack } from "../lib/stack"
+import { WildlifeStack } from "../lib/stack"
 
 const app = new cdk.App()
-new Stack(app, "Stack")
+new WildlifeStack(app, "WildlifeStack")
 app.run()
